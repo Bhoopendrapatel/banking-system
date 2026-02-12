@@ -1,17 +1,25 @@
 # Banking Management System
 
-A banking system built using Python, Streamlit, and SQLite.
+A simple Banking Management System built using Python, Streamlit, and SQLite.
+This project demonstrates CRUD operations, authentication, and transaction handling.
 
 ## Features
-- Login system
-- Account creation
-- Deposit & Withdraw
+- User login system
+- Create account
+- Deposit money
+- Withdraw money
 - Balance check
 - Transaction history
 
-## Run project
+## Tech Stack
+- Python
+- Streamlit
+- SQLite
+
+## Run Locally
 pip install -r requirements.txt
 streamlit run app.py
 
-Login:
-admin / 1234
+## Login Credentials
+username: admin
+password: 1234
